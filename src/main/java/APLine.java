@@ -2,12 +2,12 @@ public class APLine
 {
   /* your code here */
   private int a, b, c;
-  public Apline(int a1, b1, c1){
+  public APline(int a1, b1, c1){
     a = a1; 
     b = b1;
     c = c1;
   }
-  public double getSlopes(){
+  public double getSlope(){
     return -(double)a / b;
   }
   public boolean isOnLine(int x, int y){
